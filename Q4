@@ -1,0 +1,11 @@
+#4.This program is to compute median.
+data = [2,56,25,78,54]#initializing the list of numbers
+sorted_data = sorted(data)#sorting the data in ascending order
+n = len(data)#counting the numbers of elements in the list
+if n % 2 ==0:#if even
+    median = (sorted_data[n//2 - 1] + sorted_data[n//2]) /2#computing median for even numbers
+    print("Median of the data is :",median)
+else:
+    median = sorted_data[n//2]# if odd
+    print("Median of the data is :",median)#computing median for odd numbers
+    
