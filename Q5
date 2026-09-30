@@ -1,0 +1,8 @@
+#5.This program creates a function to compute mean.
+data = [2,5,6,34,32,12]#initializing the list of numbers
+def compute_mean(data):#defining function e mean
+    n = len(data)#computing the total numbers of elements
+    mean = sum(data)/n#computing mean
+    return mean
+mean = compute_mean(data)
+print("Mean of the data is :",mean)
