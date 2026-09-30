@@ -1,0 +1,12 @@
+#2.Performing sorting via bubble sort method
+data = [3,45,89,59,23]
+i =0
+while i < len(data):
+    j = 0
+    while j < len(data)-1:
+        if data[j] > data[j+1]:
+            data[j], data[j+1] = data[j+1], data[j]
+        j += 1
+    i += 1
+print("Original data:", [3,45,89,59,23])
+print("Sorted data:", data)
